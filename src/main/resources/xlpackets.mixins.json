@@ -2,9 +2,10 @@
   "required": true,
   "package": "tfar.xlpackets.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "xlpackets.refmap.json",
+  "refmap": "xlpackets.mixins.refmap.json",
   "mixins": [
-    "PacketInflaterMixin"
+    "FriendlyByteBufMixin",
+    "CompressionDecoderMixin"
   ],
   "injectors": {
     "defaultRequire": 1
